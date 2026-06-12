@@ -31,6 +31,7 @@ public class App {
         String out = "img.bmp";
         if (args.length != 0){
             out = args[0];
+            out += ".bmp";
         }
         int FOV = 90;
         int res = 1000; //final output resolution, midstep renders a square at (res x antialiasing level) 
