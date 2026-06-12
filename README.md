@@ -1,5 +1,4 @@
 This was a rendering engine I made for school, it is not intended for any real use. 
-
 It was made as a learning excercise, which it succeeded at, but it is held back by multiple things:
 
     1. it was written in Java
@@ -8,22 +7,21 @@ It was made as a learning excercise, which it succeeded at, but it is held back 
     4. polygon lighting is designed to work with cubes and cubes only.
     5. no differed data is stored (ex. depth, normals, etc.)
 
-and it has more general issues that can be fixed pretty easily
+It also has more some more general issues that could be fixed pretty easily:
 
     1. shadowing kind of works? but not really?
     2. anything behind the camera messes things up badly.
     3. the downsampler (superSampler.java) is very slow
     
-overall I think it succeeds as a learning experience and as a party trick but not much more.
-
-the feature set is as listed:
+Overall I think it succeeds as a learning experience and as a party trick but not much more.
+The feature set is as listed:
 
     1. shadowing
     2. SSAA
     3. perspective correct texture mapping
     4. lit/shadowed polygons
 
-USAGE:
+USAGE: (see "example.cdata")
 
     1. cubes.cdata is read from to load in data 
     2. each cube is formatted as x,y,z,texture.bmp,rotation of all 6 faces (value of 0-3)
