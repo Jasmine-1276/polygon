@@ -27,8 +27,8 @@ USAGE: (see "example.cdata")
     5. reading from the file stops at a line starting with //
 To run the program, first compile class files
 
-    1. javac src/*.java
+    1. javac -d bin src/*.java
 Then run the compiled App.java, with arguments name, resolution, AA level
 
-    1. java -cp src App img 500 2
+    1. java -cp bin App img 500 2
 This creates 2 bmp files, one named "img.bmp" at a resolution of 1000x1000 (resolution x AA level), with no AA and imgPost.bmp, which is 500x500 with AA
