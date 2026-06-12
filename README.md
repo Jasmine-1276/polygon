@@ -17,6 +17,7 @@ and it has more general issues that can be fixed pretty easily
 overall I think it succeeds as a learning experience and as a party trick but not much more.
 
 the feature set is as listed:
+
     1. shadowing
     2. SSAA
     3. perspective correct texture mapping
