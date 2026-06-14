@@ -27,11 +27,11 @@ USAGE: (see "example.cdata")
     5. reading from the file stops at a line starting with //
 To run the program, first compile class files
 
-    1. javac -d bin src/*.java
-Then run the compiled App.java, with arguments name, resolution, AA level
+    javac -d bin src/*.java
+Then run the compiled App.java, with arguments: name, resolution, AA level
 
-    1. java -cp bin App img 500 2
-This creates 2 bmp files, one named "img.bmp" at a resolution of 1000x1000 (resolution x AA level), with no AA and imgPost.bmp, which is 500x500 with AA
+    java -cp bin App img 500 2
+This example creates 2 bmp files, one named "img.bmp" at a resolution of 1000x1000 (resolution x AA level), with no AA and imgPost.bmp, which is 500x500 with AA. The second file is created since the AA level is >1.
 
 <p align=center>
     <img src="https://i.imgur.com/XKYylTu.gif" alt="Example of the animation feature" />
