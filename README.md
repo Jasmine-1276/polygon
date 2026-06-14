@@ -21,7 +21,7 @@ The feature set is as listed:
 USAGE: (see "example.cdata")
 
     1. cubes.cdata is read from to load in data 
-    2. each cube is formatted as x,y,z,texture.bmp,rotation of all 6 faces (value of 0-3)
+    2. each cube is formatted as x,y,z,scale,texture.bmp,rotation of all 6 faces (value of 0-3)
     3. light source position is indentified with capital LS, followed by the x,y,z
     4. the camera postion can also be modified, stored with identifier C, followed by x,y,z
     5. reading from the file stops at a line starting with //
