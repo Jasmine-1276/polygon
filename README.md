@@ -33,6 +33,8 @@ Then run the compiled App.java, with arguments: name, resolution, AA level
     java -cp bin App img 500 2
 This example creates 2 bmp files, one named "img.bmp" at a resolution of 1000x1000 (resolution x AA level), with no AA and imgPost.bmp, which is 500x500 with AA. The second file is created since the AA level is >1.
 
+Batch rendering is supported, but not well. The example case can be found in "anim.java" where the position of the light source is moved on a cubic curve. One thing that may be added in the future is proper animation rendering with output in a filetype like mp4 or mov, right now it outputs a series of bmps. Java does have a built in function to convert bmp to png though, so I may throw that together soon.
+
 <p align=center>
     <img src="https://i.imgur.com/XKYylTu.gif" alt="Example of the animation feature" />
 <p/>
