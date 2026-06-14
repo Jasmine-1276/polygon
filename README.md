@@ -32,3 +32,11 @@ Then run the compiled App.java, with arguments name, resolution, AA level
 
     1. java -cp bin App img 500 2
 This creates 2 bmp files, one named "img.bmp" at a resolution of 1000x1000 (resolution x AA level), with no AA and imgPost.bmp, which is 500x500 with AA
+
+<p align=center>
+    <img src="https://i.imgur.com/XKYylTu.gif" alt="Example of the animation feature" />
+<p/>
+
+<p align=center>
+    Thank you for reading, I had fun making it, I hope you have fun playing around with it.
+<p/>
